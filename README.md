@@ -1,4 +1,4 @@
-# license-list
+# safe-license-list
 
 This library provides type-safe license data from the [github/choosealicense.com](https://github.com/github/choosealicense.com) repository.
 
@@ -6,19 +6,19 @@ This library provides type-safe license data from the [github/choosealicense.com
 ## Install
 
 ```shell
-npm install license-list
+npm install safe-license-list
 ```
 
 ## Usage
 
 ```typescript
-import { licenses } from "license-list";
+import { licenses } from "safe-license-list";
 
 console.log(licenses);
 ```
 
 ```typescript
-import { getLicenseFromId } from "license-list";
+import { getLicenseFromId } from "safe-license-list";
 
 const mit = getLicenseFromId("MIT", false);
 
