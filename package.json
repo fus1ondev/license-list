@@ -2,12 +2,13 @@
   "name": "safe-license-list",
   "version": "0.1.0",
   "description": "Provides type-safe license data",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "generate": "node scripts/generate.js",
     "build": "tsc",
     "prepare": "npm run generate && npm run build"
   },
-  "main": "index.js",
   "keywords": ["license", "spdx"],
   "author": "fus1ondev",
   "license": "MIT",
