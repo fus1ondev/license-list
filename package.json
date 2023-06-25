@@ -1,11 +1,11 @@
 {
   "name": "license-list",
   "version": "0.1.0",
-  "description": "",
+  "description": "Provides type-safe license data",
   "scripts": {
     "generate": "node scripts/generate.js",
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run generate && npm run build"
   },
   "main": "index.js",
   "keywords": ["license", "spdx"],
